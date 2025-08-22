@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Codingal Activity - School</title>
+  <style>
+    body {
+      
+      background: linear-gradient(to bottom right, yellow, blue)
+    
+    }
+
+    *{
+      font-family: Arial, sans-serif;
+    }
+
+    h1{
+      text-shadow: 2px 2px 1px red;
+      padding: 30px
+    }
+
+    img#bmisRight{
+      float:right
+    }
+    img#bmisLeft{
+      float:left
+    }
+  
+  #bmisquote{
+    padding-top: 37px
+  }
+
+  @keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+  }
+
+    #video{
+      width: 100px;
+      height: 100px;
+      background-colour: red;
+      animation-name: example;
+      animation-duration: 30s;
+      font-size: 20px;
+    }
+
+    #school-system{
+      font-family: Roboto;
+      font-size: 20px;
+      color: #333;
+    }
+
+    #mission{
+      font-family: Roboto;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .learning-path{
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      color: #333;
+    }
+
+    input[type=radio]{
+    }
+
+    input[type="text"] {
+      border: 2px solid red;
+    }
+
+    input[type="password"] {
+      border: 2px solid green;
+    }
+
+    input[type="radio"] {
+      opacity: 1;
+      z-index: 100;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <b><h1> Bishop Mackenzie International School - BMIS</b></h1>
+</head>
+
+<body>
+  <p>
+    <img id="bmisRight" src="https://www.state.gov/wp-content/uploads/2023/11/Logo-Final-02.svg" alt="BMIS Logo" width="25%" height="25%">
+    <img id="bmisLeft" src="https://www.state.gov/wp-content/uploads/2023/11/Logo-Final-02.svg" alt="BMIS Logo" width="25%" height="25%">
+    <section id="bmisquote">Belief Motivation Inspiration Success</section>
+  </p><br>
+
+  <p><b>School Address:</b> Barron Avenue, Lilongwe</p>
+  <p><b>No. Of Students:</b> 750</p>
+  <p><b><a href="https://www.bmis.mw">School Website</a></b></p>
+  <p id="mission"><b>Our mission:</b></p><p style = 'color: darkblue; font-size: 20px; text-transform: uppercase;'> 
+    We are a diverse and welcoming community in a joyful learning environment that promotes well-being, sustainability, and inclusivity and celebrates growth as success.
+  </p>
+  <input type="text" id="username" placeholder="Enter Username"><br>
+  <input type="password" id="password" placeholder="Enter Password"><br>
+  <button type="submit">Submit</button>
+  <p id="video">
+    This is a video of a sunset at our school.</p>
+  <p>
+  <video controls>
+    <source src="C:\Users\neil0\Downloads\CodingVideos\sunset.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  </p>
+  <p id="school-system"><b>School System:</b> International Baccalaureate (IB)</p>
+  <b><u>Subjects Offered:</u></b>
+  <ol>
+    <li>English - <i>Literature, Language & Literature</i></li>
+    <li>Languages - <i>French, Spanish</i></li>
+    <li>Humanities - <i>Business Management, Global Politics, Environmental Systems and Societies</i></li>
+    <li>Sciences - <i>Chemistry, Physics, Biology, Design and Technology, Sports</i></li>
+    <li>Mathematics - <i>Analysis and Approaches, Applications & Interpretation</i></li>
+    <li>Arts - <i>Theatre, Visual Arts</i></li>
+  </ol>
+  <form>
+    <fieldset>
+      <legend><i>Group 1 (English) Subjects:</i></legend>
+      <input type="radio" value="Literature" name="eng">Literature<br>
+      <input type="radio" value="Language & Literature" name="eng">Language & Literature<br>
+    </fieldset>
+    <fieldset>
+      <legend><i>Group 2 (Language) Subjects:</i></legend>
+      <input type="radio" value="French" name="lang">French<br>
+      <input type="radio" value="Spanish" name="lang">Spanish<br>
+    </fieldset>
+    <fieldset>
+      <legend><i>Group 3 (Humanities) Subjects:</i></legend>
+      <input type="radio" value="Business Management" name="hums">Business Management<br>
+      <input type="radio" value="Global Politics" name="hums">Global Politics<br>
+      <input type="radio" value="Environmental Systems and Societies" name="hums">Environmental Systems and Societies (ESS)<br>
+    </fieldset>
+    <fieldset>
+      <legend><i>Group 4 (Science) Subjects:</i></legend>
+      <input type="radio" value="Chemistry" name="sci">Chemistry<br>
+      <input type="radio" value="Physics" name="sci">Physics<br>
+      <input type="radio" value="Biology" name="sci">Biology<br>
+      <input type="radio" value="Design and Technology" name="sci">Design and Technology<br>
+      <input type="radio" value="Sports Science" name="sci">Sports Science<br>
+    </fieldset>
+    <fieldset>
+      <legend><i>Group 5 (Mathematics) Subjects:</i></legend>
+      <input type="radio" value="Analysis and Approaches" name="math">Analysis and Approaches (AA)<br>
+      <input type="radio" value="Applications and Interpretation" name="math">Applications and Interpretation (AI)<br>
+    </fieldset>
+    <fieldset>
+      <legend><i>Group 6 (Arts) Subjects:</i></legend>
+      <input type="radio" value="Theatre" name="art">Theatre<br>
+      <input type="radio" value="Visual Arts" name="art">Visual Arts<br>
+    </fieldset>
+    <button type="button">Submit</button>
+  </form><br>
+  <div class="learning-path">
+  <b><u>Learning Path:</u></b></div><br>
+  We offer 3 types of courses for our high school students to choose from. For each subject, there is Higher Level (HL) and Standard Level (SL)
+  <ul>
+    <li><b>Diploma Programme</b> - 6 subjects (Min. 3 HL and 3 SL), Extended Essay (EE), Theory of Knowledge (ToK), and Creativity, Activity, Service (CAS)</li>
+    <li><b>Diploma Courses Programme</b> - 5 subjects (Min. 1 HL) and CAS</li>
+    <li><b>High School Diploma</b> - 3 subjects and CAS</li>
+  </ul>
+  <div id="course">Please select which one you are interested in.</div>
+  <form>
+    <fieldset>
+      <legend>Course</legend>
+      <select>
+        <option>--Select Course</option>
+        <option value="dp">Diploma Programme</option>
+        <option value="dcp">Diploma Course Programme</option>
+        <option value="hsd">High School Diploma</option>
+      </select>
+      <button type="button">Submit</button>
+    </fieldset>
+  </form>
+<p id="indent"><b>School Sports:</b></p>
+  <table border="1">
+    <tr>
+      <th><u>Sport</u></th>
+      <th><u>Grade</u></th>
+    </tr>
+    <tr>
+      <td>Football</td>
+      <td>Grade 6+</td>
+    </tr>
+    <tr>
+      <td>Basketball</td>
+      <td>Grade 9+</td>
+    </tr>
+    <tr>
+      <td>Netball</td>
+      <td>Grade 6+</td>
+    </tr>
+    <tr>
+      <td>Volleyball</td>
+      <td>Grade 8+</td>
+    </tr>
+    <tr>
+      <td>Rugby</td>
+      <td>Grade 10+</td>
+    </tr>
+    <tr>
+      <td>Swimming</td>
+      <td>Grade 6+</td>
+    </tr>
+  </table><br>
+  <script src="script.js"></script>
+</body>
+
+</html>
